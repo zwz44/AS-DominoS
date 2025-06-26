@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AS DominoS</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/9.6.10/firebase-database.js"></script>
+  <script defer src="firebase-config.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <h1>AS DominoS</h1>
+  <div id="game">
+    <div id="roomSetup">
+      <input type="text" id="roomCode" placeholder="کۆدی یاری بنووسە" />
+      <button onclick="joinRoom()">بەشداری بکە</button>
+      <button onclick="createRoom()">دروستکردنی یاری</button>
+    </div>
+    <div id="gameBoard" style="display:none">
+      <div id="dominoBoard"></div>
+      <div id="playerHand"></div>
+      <div id="gameStatus"></div>
+    </div>
+  </div>
+</body>
+</html>
