@@ -4,13 +4,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebas
 import { getDatabase } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
-  databaseURL: "YOUR_DATABASE_URL"
+  apiKey: "AIzaSyDFK_yO1iw5GSAYjA-W2Uf6axNZLhHy4oo",
+  authDomain: "as-dominos.firebaseapp.com",
+  projectId: "as-dominos",
+  storageBucket: "as-dominos.firebasestorage.app",
+  messagingSenderId: "1052009414343",
+  appId: "1:1052009414343:web:2b12d053aa0f09349648e2",
+  measurementId: "G-8K5GVNHNFQ"
 };
 
 const app = initializeApp(firebaseConfig);
